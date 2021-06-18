@@ -110,7 +110,7 @@ a:hover {
   header {
     height: inherit;
   }
-  .container {
+  #container {
     flex-direction: column;
   }
   .left img {
@@ -179,7 +179,70 @@ a:hover {
     font-size: 22px;
   }
 }
-
+@media only screen and (max-width: 800px) {
+  .left img {
+    max-width: 70%;
+    margin: 5% 15%;
+  }
+  #theH1,
+  .right h1 span {
+    font-size: 65px;
+    line-height: 60px;
+  }
+  #thebutton {
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 28px;
+    width: 60%;
+    margin: 9% 20%;
+  }
+  #theP {
+    font-size: 35px;
+  }
+  #thH2 {
+    font-size: 42px;
+  }
+  #th2P {
+    font-size: 40px;
+  }
+  img#wave {
+    bottom: -195px;
+    left: 0%;
+    z-index: 1;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #theH1,
+  .right h1 span {
+    font-size: 60px;
+    margin: 5% 1%;
+    width: 85%;
+  }
+  .left {
+    width: 50vh;
+  }
+  .left #homepic {
+    margin: 0 5%;
+    min-width: 80%;
+  }
+  #theP {
+    font-size: 35px;
+    width: 70%;
+    margin: 5% 15%;
+  }
+  #thebutton {
+    font-size: 30px;
+    width: 60%;
+    margin: 9% 20%;
+  }
+  #th2P {
+    font-size: 25px;
+  }
+  #thH2 {
+    font-size: 30px;
+  }
+}
 /**MEDIA QUERY FOR NAVBAR ENDS HERE*/
 #wave {
   position: absolute;
